@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54EC22D21CC7F6BC009E93B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54EC22D11CC7F6BC009E93B7 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54EC22CC1CC7F6BC009E93B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54EC22CE1CC7F6BC009E93B7 /* Cipher_Key */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cipher_Key; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EC22D11CC7F6BC009E93B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		54EC22D81CC7F6C9009E93B7 /* key.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key.txt; sourceTree = "<group>"; };
+		54EC22D91CC7F7A2009E93B7 /* message.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = message.txt; sourceTree = "<group>"; };
+		54EC22DA1CC7F9A6009E93B7 /* encrypted.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = encrypted.txt; sourceTree = "<group>"; };
+		54EC22DB1CC7FEF4009E93B7 /* decrypted.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = decrypted.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54EC22CB1CC7F6BC009E93B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54EC22C51CC7F6BC009E93B7 = {
+			isa = PBXGroup;
+			children = (
+				54EC22D01CC7F6BC009E93B7 /* Cipher_Key */,
+				54EC22CF1CC7F6BC009E93B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54EC22CF1CC7F6BC009E93B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54EC22CE1CC7F6BC009E93B7 /* Cipher_Key */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EC22D01CC7F6BC009E93B7 /* Cipher_Key */ = {
+			isa = PBXGroup;
+			children = (
+				54EC22DB1CC7FEF4009E93B7 /* decrypted.txt */,
+				54EC22DA1CC7F9A6009E93B7 /* encrypted.txt */,
+				54EC22D91CC7F7A2009E93B7 /* message.txt */,
+				54EC22D11CC7F6BC009E93B7 /* main.cpp */,
+				54EC22D81CC7F6C9009E93B7 /* key.txt */,
+			);
+			path = Cipher_Key;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EC22CD1CC7F6BC009E93B7 /* Cipher_Key */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EC22D51CC7F6BC009E93B7 /* Build configuration list for PBXNativeTarget "Cipher_Key" */;
+			buildPhases = (
+				54EC22CA1CC7F6BC009E93B7 /* Sources */,
+				54EC22CB1CC7F6BC009E93B7 /* Frameworks */,
+				54EC22CC1CC7F6BC009E93B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cipher_Key;
+			productName = Cipher_Key;
+			productReference = 54EC22CE1CC7F6BC009E93B7 /* Cipher_Key */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EC22C61CC7F6BC009E93B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joe McIlhargey";
+				TargetAttributes = {
+					54EC22CD1CC7F6BC009E93B7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 54EC22C91CC7F6BC009E93B7 /* Build configuration list for PBXProject "Cipher_Key" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54EC22C51CC7F6BC009E93B7;
+			productRefGroup = 54EC22CF1CC7F6BC009E93B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54EC22CD1CC7F6BC009E93B7 /* Cipher_Key */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54EC22CA1CC7F6BC009E93B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC22D21CC7F6BC009E93B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54EC22D31CC7F6BC009E93B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54EC22D41CC7F6BC009E93B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54EC22D61CC7F6BC009E93B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54EC22D71CC7F6BC009E93B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54EC22C91CC7F6BC009E93B7 /* Build configuration list for PBXProject "Cipher_Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC22D31CC7F6BC009E93B7 /* Debug */,
+				54EC22D41CC7F6BC009E93B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EC22D51CC7F6BC009E93B7 /* Build configuration list for PBXNativeTarget "Cipher_Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC22D61CC7F6BC009E93B7 /* Debug */,
+				54EC22D71CC7F6BC009E93B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54EC22C61CC7F6BC009E93B7 /* Project object */;
+}
